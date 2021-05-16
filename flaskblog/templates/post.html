@@ -19,7 +19,7 @@
   </article>
 
     {% if current_user.is_authenticated %}
-      <legend class="border-bottom mb-4 border-top">Leave a comment</legend>
+      <legend class="border-bottom mb-4 border-top">Leave a comment!</legend>
       <article class="media content-section">  
     <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + current_user.image_file) }}">
       <div class="media-body">
