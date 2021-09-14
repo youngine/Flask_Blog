@@ -1,9 +1,34 @@
-## SOME DEMO OUTPUT
-![demo1](img/demo1.JPG)
-![demo2](img/demo2.JPG)
-![demo3](img/demo3.JPG)
+<br>
 
-## WHAT'S INCLUDED
+## Some Demo Output
+<img src="/img/demo1.JPG" width="600" height="300">
+<br>
+<img src="/img/demo2.JPG" width="600" height="300">
+<br>
+<img src="/img/demo3.JPG" width="600" height="300">
+<br>
+
+## How to run the project
+
+### Setup
+- Install Python (3.6 or later).
+- Install required packages
+- flask: pip install flask
+- flask-sqlalchemy: pip install flask_sqlalchemy
+- flask-wtf: pip install flask_wtf
+- flask-bcrypt: pip install flask_bcrypt
+- flask-login: pip install flask_login
+- flask-mail: pip install flask_mail
+- Pillow (PIL): pip install Pillow Or instead you could just run:
+- pip install flask flask_sqlalchemy flask_wtf flask_bcrypt flask_login flask_mail Pillow
+
+### Running
+- To start the server: python run.py runserver
+- Then navigate to localhost:5000 on your browser
+
+<br>
+
+## What's included
 
 ### User Authentication
   - Authentication Extensions for Flask<br>
